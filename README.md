@@ -7,7 +7,8 @@ This provides the code, data, and experiments for article "A Zeroth-order Adapti
 Anyone who is interested in Adacomp can reproduce the experimental results, or makes a further study based on the provided code. 
 
 # Structure
-Each folder contains files main_SGD, main_Momentum, main_Adagrad, main_RMSprop, main_Adadelta, main_Adam, main_Adamax, and main_Adacomp (ours).
+Each folder contains files main_SGD, main_Momentum, main_Adagrad, main_RMSprop, main_Adadelta, main_Adam, main_Adamax, and main_Adacomp (ours), 
+except that more files are in Code for CIFAR-10. 
 
 However, the same file in different folders is used for different classification tasks, also with different network architectures. 
 ## 1. Code for MNIST (10 classification, epochs = 10)
@@ -33,7 +34,7 @@ to reproduce it. Here, batch-size denotes the size of training mini-batch, and s
  ## 2. Code for KMNIST (10 classification, epochs = 20)
 (1) This is used for part of Table 2 and Figure 6, which show the robustness to learning rate when dataset changes. 
 
-(2) The operation similar to Code for MNIST, except using the dataset KMNIST here.
+(2) The operation is similar to "1. Code for MNIST", except that dataset is KMNIST here.
 
 (3) Experimental data have been rearranged in file "heat_map_mnist.m". One can directly run it to observe experimental results.
 ## 3. Code for Fashion-MNIST (10 classification, epochs=20)
@@ -47,7 +48,10 @@ In particular, 6 out of 18 network architectures, LeNet, VGG19, ResNet18, Mobile
 
 (2) To obtain experimental data in Figures 4 and 5, typing 
 
-parallel --eta --jobs 4 python filename --lr ::: 0.005, 0.05, 0.6 > log.txt
+parallel --eta --jobs 4 python filename.py --lr ::: 0.005, 0.05, 0.6 > log.txt
+
+where the filename is composed of algorithm and architecture. 
+For example, main_Adacomp_LeNet means that using method Adacomp to network architecture LeNet, which is defined in https://github.com/kuangliu/pytorch-cifar.
 
 (3) Experimental data have been rearranged in file "heat_map_cifar10". One can directly run it to observe experimental results.
 
@@ -58,7 +62,7 @@ The used network architecture is borrowed from https://github.com/junyuseu/367py
 
 (2) To obtain experimental data in Table 2 and Figure 6, typing 
 
-parallel --eta --jobs 4 python main_Adam.py --lr ::: 0.001 0.01 0.1 1 > log.txt
+parallel --eta --jobs 4 python filename.py --lr ::: 0.001 0.01 0.1 1 > log.txt
 
 (3) Experimental data have been rearranged in file "comparison.m". One can directly run it to observe experimental results.
  
