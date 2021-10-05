@@ -10,7 +10,6 @@ Anyone who is interested in Adacomp can reproduce the experimental results, or m
 Each folder contains files main_SGD, main_Momentum, main_Adagrad, main_RMSprop, main_Adadelta, main_Adam, main_Adamax, and main_Adacomp (ours), 
 except that more files are in Code for CIFAR-10. 
 
-However, the same file in different folders is used for different classification tasks, also with different network architectures. 
 ## 1. Code for MNIST (10 classification, epochs = 10)
 (1) This provides code for Figures 1, 2 (robustness to initial learning rate), Figure 3 (robustness to batch size and network initialization), and Table 1 (convergence speed and computational efficiency). The used network architecture is borrowed from https://github.com/pytorch/examples. 
 
