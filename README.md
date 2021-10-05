@@ -15,15 +15,15 @@ except that more files are in Code for CIFAR-10.
 
 (2) To obtain experimental data in Figures 1, 2, using parallelization method 
 
-parallel --eta --jobs 4 python filename --lr ::: 1e-5, 5e-5, 1e-4, 5e-4, 1e-3, 5e-3, 0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 2.0, 3.0, 4.0, 5.0 > log.txt
+parallel --eta --jobs 4 python filename.py --lr ::: 1e-5, 5e-5, 1e-4, 5e-4, 1e-3, 5e-3, 0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 2.0, 3.0, 4.0, 5.0 > log.txt
 
 to reduce time. Or else, run them one by one. Here, --lr denotes learning rate, filename is selected from main_SGD, main_Momentum, main_Adagrad, main_RMSprop, main_Adadelta, main_Adam, main_Adamax, and main_Adacomp.
 
 (3) To obtain experimental data in Figure 3, using 
 
-parallel --eta --jobs 4 python filename --batch-size ::: 16, 32, 64, 128 > log.txt
+parallel --eta --jobs 4 python filename.py --batch-size ::: 16, 32, 64, 128 > log.txt
 
-parallel --eta --jobs 4 python filename --seed ::: 16, 32, 64, 128 > log.txt
+parallel --eta --jobs 4 python filename.py --seed ::: 16, 32, 64, 128 > log.txt
 
 to reproduce it. Here, batch-size denotes the size of training mini-batch, and seed denotes the network initialization. 
 
