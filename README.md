@@ -5,3 +5,10 @@ This provides the code, data, and experiments for article "A Zeroth-order Adapti
 
 # Aim
 Anyone who is interested in Adacomp can reproduce the experimental results, or makes a further study based on the provided code. 
+
+# Structure
+1. Code for MNIST (10 classification)
+2. Code for KMNIST (10 classification)
+3. Code for Fashion-MNIST (10 classification)
+4. Code for CIFAR-10 (10 classification)
+5. Code for CIFAR-100 (100 classification)
