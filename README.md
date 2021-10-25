@@ -65,6 +65,10 @@ parallel --eta --jobs 4 python filename.py --lr ::: 0.001 0.01 0.1 1 > log.txt
 
 (3) Experimental data have been rearranged in file "comparison.m". One can directly run it to observe experimental results.
 
-## Code for Supplementary Experiments
-# 
+## 6. Code for Supplementary Experiments
+This is used for experiments in appendix, including 
+
+(1) using accuracy, precision, recall, f1-score, on MNIST, Fashion-MNIST, and CIFAR-10；
+
+(2) comparing Adacomp with genetic algorithm and particle swarm optimization algorithm. 
  
