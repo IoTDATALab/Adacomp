@@ -64,4 +64,7 @@ The used network architecture is borrowed from https://github.com/junyuseu/367py
 parallel --eta --jobs 4 python filename.py --lr ::: 0.001 0.01 0.1 1 > log.txt
 
 (3) Experimental data have been rearranged in file "comparison.m". One can directly run it to observe experimental results.
+
+## Code for Supplementary Experiments
+# 
  
