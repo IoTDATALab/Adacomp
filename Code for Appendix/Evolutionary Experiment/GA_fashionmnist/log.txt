@@ -1,0 +1,131 @@
+10/19/2021 07:31:36 PM - INFO - ***Evolving 10 generations with population 20***
+10/19/2021 07:31:36 PM - INFO - ***Doing generation 1 of 10***
+10/19/2021 07:41:12 PM - INFO - ***Evolving 10 generations with population 20***
+10/19/2021 07:41:12 PM - INFO - ***Doing generation 1 of 10***
+10/19/2021 07:58:49 PM - INFO - ***Evolving 10 generations with population 20***
+10/19/2021 07:58:49 PM - INFO - ***Doing generation 1 of 10***
+10/19/2021 08:11:08 PM - INFO - Generation average: 67.24%
+10/19/2021 08:11:08 PM - INFO - --------------------------------------------------------------------------------
+10/19/2021 08:11:08 PM - INFO - ***Doing generation 2 of 10***
+10/19/2021 08:17:52 PM - INFO - Generation average: 67.43%
+10/19/2021 08:17:52 PM - INFO - --------------------------------------------------------------------------------
+10/19/2021 08:17:52 PM - INFO - ***Doing generation 3 of 10***
+10/19/2021 08:24:09 PM - INFO - Generation average: 66.56%
+10/19/2021 08:24:09 PM - INFO - --------------------------------------------------------------------------------
+10/19/2021 08:24:09 PM - INFO - ***Doing generation 4 of 10***
+10/19/2021 08:30:51 PM - INFO - Generation average: 66.68%
+10/19/2021 08:30:51 PM - INFO - --------------------------------------------------------------------------------
+10/19/2021 08:30:51 PM - INFO - ***Doing generation 5 of 10***
+10/19/2021 08:37:07 PM - INFO - Generation average: 67.15%
+10/19/2021 08:37:07 PM - INFO - --------------------------------------------------------------------------------
+10/19/2021 08:37:07 PM - INFO - ***Doing generation 6 of 10***
+10/19/2021 08:44:00 PM - INFO - Generation average: 66.68%
+10/19/2021 08:44:00 PM - INFO - --------------------------------------------------------------------------------
+10/19/2021 08:44:00 PM - INFO - ***Doing generation 7 of 10***
+10/19/2021 08:49:28 PM - INFO - Generation average: 66.31%
+10/19/2021 08:49:28 PM - INFO - --------------------------------------------------------------------------------
+10/19/2021 08:49:28 PM - INFO - ***Doing generation 8 of 10***
+10/19/2021 08:55:32 PM - INFO - Generation average: 67.56%
+10/19/2021 08:55:32 PM - INFO - --------------------------------------------------------------------------------
+10/19/2021 08:55:32 PM - INFO - ***Doing generation 9 of 10***
+10/20/2021 01:13:46 PM - INFO - ***Evolving 10 generations with population 20***
+10/20/2021 01:13:46 PM - INFO - ***Doing generation 1 of 10***
+10/22/2021 10:49:44 AM - INFO - ***Evolving 10 generations with population 20***
+10/22/2021 10:49:44 AM - INFO - ***Doing generation 1 of 10***
+10/22/2021 10:53:42 AM - INFO - ***Evolving 10 generations with population 20***
+10/22/2021 10:53:42 AM - INFO - ***Doing generation 1 of 10***
+10/22/2021 10:59:27 AM - INFO - ***Evolving 10 generations with population 20***
+10/22/2021 10:59:27 AM - INFO - ***Doing generation 1 of 10***
+10/22/2021 11:12:58 AM - INFO - ***Evolving 10 generations with population 20***
+10/22/2021 11:12:58 AM - INFO - ***Doing generation 1 of 10***
+10/22/2021 11:13:03 AM - WARNING - 5 out of the last 9 calls to <function Model.make_train_function.<locals>.train_function at 0x0000026CF50BAD38> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+10/22/2021 11:13:04 AM - WARNING - 6 out of the last 11 calls to <function Model.make_train_function.<locals>.train_function at 0x0000026CF79E4D38> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+10/22/2021 11:13:16 AM - INFO - Generation max accuracy, precision, recall, max, min: 0.4800%, nan%, 0.0547%
+10/22/2021 11:13:16 AM - INFO - --------------------------------------------------------------------------------
+10/22/2021 11:13:16 AM - INFO - ***Doing generation 2 of 10***
+10/22/2021 11:13:26 AM - INFO - Generation max accuracy, precision, recall, max, min: 0.4800%, nan%, 0.0078%
+10/22/2021 11:13:26 AM - INFO - --------------------------------------------------------------------------------
+10/22/2021 11:13:26 AM - INFO - ***Doing generation 3 of 10***
+10/22/2021 11:13:38 AM - INFO - Generation max accuracy, precision, recall, max, min: 0.5000%, nan%, 0.0625%
+10/22/2021 11:13:38 AM - INFO - --------------------------------------------------------------------------------
+10/22/2021 11:13:38 AM - INFO - ***Doing generation 4 of 10***
+10/22/2021 11:13:48 AM - INFO - Generation max accuracy, precision, recall, max, min: 0.5000%, nan%, 0.0625%
+10/22/2021 11:13:48 AM - INFO - --------------------------------------------------------------------------------
+10/22/2021 11:13:48 AM - INFO - ***Doing generation 5 of 10***
+10/22/2021 11:13:59 AM - INFO - Generation max accuracy, precision, recall, max, min: 0.5000%, nan%, 0.0625%
+10/22/2021 11:13:59 AM - INFO - --------------------------------------------------------------------------------
+10/22/2021 11:13:59 AM - INFO - ***Doing generation 6 of 10***
+10/22/2021 11:14:10 AM - INFO - Generation max accuracy, precision, recall, max, min: 0.5000%, nan%, 0.0625%
+10/22/2021 11:14:10 AM - INFO - --------------------------------------------------------------------------------
+10/22/2021 11:14:10 AM - INFO - ***Doing generation 7 of 10***
+10/22/2021 11:14:22 AM - INFO - Generation max accuracy, precision, recall, max, min: 0.5000%, nan%, 0.0156%
+10/22/2021 11:14:22 AM - INFO - --------------------------------------------------------------------------------
+10/22/2021 11:14:22 AM - INFO - ***Doing generation 8 of 10***
+10/22/2021 11:14:34 AM - INFO - Generation max accuracy, precision, recall, max, min: 0.5000%, nan%, 0.0469%
+10/22/2021 11:14:34 AM - INFO - --------------------------------------------------------------------------------
+10/22/2021 11:14:34 AM - INFO - ***Doing generation 9 of 10***
+10/22/2021 11:14:43 AM - INFO - Generation max accuracy, precision, recall, max, min: 0.5000%, nan%, 0.0469%
+10/22/2021 11:14:43 AM - INFO - --------------------------------------------------------------------------------
+10/22/2021 11:14:43 AM - INFO - ***Doing generation 10 of 10***
+10/22/2021 11:14:54 AM - INFO - Generation max accuracy, precision, recall, max, min: 0.5000%, nan%, 0.0469%
+10/22/2021 11:14:54 AM - INFO - --------------------------------------------------------------------------------
+10/22/2021 11:14:54 AM - INFO - --------------------------------------------------------------------------------
+10/22/2021 11:14:54 AM - INFO - {'learning_rate': 0.3, 'momentum': 0.75}
+10/22/2021 11:14:54 AM - INFO - Network accuracy: 50.00%
+10/22/2021 11:14:54 AM - INFO - {'learning_rate': 0.5, 'momentum': 0.75}
+10/22/2021 11:14:54 AM - INFO - Network accuracy: 50.00%
+10/22/2021 11:14:54 AM - INFO - {'learning_rate': 0.5, 'momentum': 0.6}
+10/22/2021 11:14:54 AM - INFO - Network accuracy: 49.00%
+10/22/2021 11:14:54 AM - INFO - {'learning_rate': 0.5, 'momentum': 0.6}
+10/22/2021 11:14:54 AM - INFO - Network accuracy: 48.00%
+10/22/2021 11:14:54 AM - INFO - {'learning_rate': 0.5, 'momentum': 0.95}
+10/22/2021 11:14:54 AM - INFO - Network accuracy: 48.00%
+10/22/2021 11:30:34 AM - INFO - ***Evolving 10 generations with population 20***
+10/22/2021 11:30:34 AM - INFO - ***Doing generation 1 of 10***
+10/22/2021 11:30:39 AM - WARNING - 5 out of the last 9 calls to <function Model.make_train_function.<locals>.train_function at 0x000002588382AD38> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+10/22/2021 11:30:40 AM - WARNING - 6 out of the last 11 calls to <function Model.make_train_function.<locals>.train_function at 0x0000025883F34D38> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+10/22/2021 11:30:52 AM - INFO - Generation max accuracy, precision, recall, max, min: 0.4800%, nan%, 0.0078%
+10/22/2021 11:30:52 AM - INFO - --------------------------------------------------------------------------------
+10/22/2021 11:30:52 AM - INFO - ***Doing generation 2 of 10***
+10/22/2021 11:31:01 AM - INFO - Generation max accuracy, precision, recall, max, min: 0.4800%, nan%, 0.0078%
+10/22/2021 11:31:01 AM - INFO - --------------------------------------------------------------------------------
+10/22/2021 11:31:01 AM - INFO - ***Doing generation 3 of 10***
+10/22/2021 11:31:13 AM - INFO - Generation max accuracy, precision, recall, max, min: 0.4800%, nan%, 0.0078%
+10/22/2021 11:31:13 AM - INFO - --------------------------------------------------------------------------------
+10/22/2021 11:31:13 AM - INFO - ***Doing generation 4 of 10***
+10/22/2021 11:31:24 AM - INFO - Generation max accuracy, precision, recall, max, min: 0.4800%, nan%, 0.0078%
+10/22/2021 11:31:24 AM - INFO - --------------------------------------------------------------------------------
+10/22/2021 11:31:24 AM - INFO - ***Doing generation 5 of 10***
+10/22/2021 11:31:34 AM - INFO - Generation max accuracy, precision, recall, max, min: 0.4800%, nan%, 0.0078%
+10/22/2021 11:31:34 AM - INFO - --------------------------------------------------------------------------------
+10/22/2021 11:31:34 AM - INFO - ***Doing generation 6 of 10***
+10/22/2021 11:31:44 AM - INFO - Generation max accuracy, precision, recall, max, min: 0.4800%, nan%, 0.0078%
+10/22/2021 11:31:44 AM - INFO - --------------------------------------------------------------------------------
+10/22/2021 11:31:44 AM - INFO - ***Doing generation 7 of 10***
+10/22/2021 11:31:56 AM - INFO - Generation max accuracy, precision, recall, max, min: 0.5100%, nan%, 0.0000%
+10/22/2021 11:31:56 AM - INFO - --------------------------------------------------------------------------------
+10/22/2021 11:31:56 AM - INFO - ***Doing generation 8 of 10***
+10/22/2021 11:32:08 AM - INFO - Generation max accuracy, precision, recall, max, min: 0.5600%, nan%, 0.0000%
+10/22/2021 11:32:08 AM - INFO - --------------------------------------------------------------------------------
+10/22/2021 11:32:08 AM - INFO - ***Doing generation 9 of 10***
+10/22/2021 11:32:20 AM - INFO - Generation max accuracy, precision, recall, max, min: 0.5600%, nan%, 0.0000%
+10/22/2021 11:32:20 AM - INFO - --------------------------------------------------------------------------------
+10/22/2021 11:32:20 AM - INFO - ***Doing generation 10 of 10***
+10/22/2021 11:32:32 AM - INFO - Generation max accuracy, precision, recall, max, min: 0.5600%, nan%, 0.0000%
+10/22/2021 11:32:32 AM - INFO - --------------------------------------------------------------------------------
+10/22/2021 11:32:32 AM - INFO - --------------------------------------------------------------------------------
+10/22/2021 11:32:32 AM - INFO - {'learning_rate': 0.3, 'momentum': 0.85}
+10/22/2021 11:32:32 AM - INFO - Network accuracy: 56.00%
+10/22/2021 11:32:32 AM - INFO - {'learning_rate': 0.5, 'momentum': 0.85}
+10/22/2021 11:32:32 AM - INFO - Network accuracy: 51.00%
+10/22/2021 11:32:32 AM - INFO - {'learning_rate': 0.3, 'momentum': 0.85}
+10/22/2021 11:32:32 AM - INFO - Network accuracy: 51.00%
+10/22/2021 11:32:32 AM - INFO - {'learning_rate': 0.3, 'momentum': 0.55}
+10/22/2021 11:32:32 AM - INFO - Network accuracy: 51.00%
+10/22/2021 11:32:32 AM - INFO - {'learning_rate': 0.3, 'momentum': 0.85}
+10/22/2021 11:32:32 AM - INFO - Network accuracy: 49.00%
+10/22/2021 11:33:22 AM - INFO - ***Evolving 10 generations with population 20***
+10/22/2021 11:33:22 AM - INFO - ***Doing generation 1 of 10***
+10/22/2021 11:36:03 AM - INFO - Generation max accuracy, precision, recall, max, min: 0.7960%, 0.8350%, 0.7697%
+10/22/2021 11:36:03 AM - INFO - --------------------------------------------------------------------------------
+10/22/2021 11:36:03 AM - INFO - ***Doing generation 2 of 10***

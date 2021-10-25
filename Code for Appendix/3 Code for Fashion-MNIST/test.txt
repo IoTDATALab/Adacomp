@@ -1,0 +1,33 @@
+
+parallel --eta --jobs 4 python main.py --lr {lr} --batch-size {size} ::: lr 0.01 0.05 0.1 0.4  ::: size 64 128 256  > log.txt
+parallel --eta --jobs 4 python main.py --lr ::: 0.00001 0.00005 0.0001 0.0005 > log.txt
+parallel --eta --jobs 4 python main_SGD.py --lr ::: 0.001 0.01 0.1 1 > log.txt
+parallel --eta --jobs 4 python main_Momentum.py --lr ::: 0.001 0.01 0.1 1 > log.txt
+parallel --eta --jobs 4 python main_RMSprop.py --lr ::: 0.001 0.01 0.1 1 > log.txt
+parallel --eta --jobs 4 python main_Adagrad.py --lr ::: 0.001 0.01 0.1 1 > log.txt
+parallel --eta --jobs 4 python main_Adadelta.py --lr ::: 0.001 0.01 0.1 1 > log.txt
+parallel --eta --jobs 4 python main_Adam.py --lr ::: 0.001 0.01 0.1 1 > log.txt
+parallel --eta --jobs 4 python main_Adamax.py --lr ::: 0.001 0.01 0.1 1 > log.txt
+parallel --eta --jobs 4 python main_Adacomp.py --lr ::: 0.001 0.01 0.1 1 > log.txt
+
+parallel --eta --jobs 5 python main_adacomp.py --lr ::: 0.00001 0.00005 0.0001 0.0005 0.001 0.005 0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1 0.2 0.3 0.4 0.5 > log.txt
+parallel --eta --jobs 4 python main_adacomp_copy.py --lr ::: 6 7 8 9 10 15 > log.txt
+parallel --eta --jobs 5 python main.py --lr ::: 1e-5 5e-5 1e-4 5e-4 1e-3 5e-3 0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 > log.txt
+
+parallel --eta --jobs 4 python main.py --lr ::: 10 15 20 25 30 40 50 100 > log.txt
+parallel --eta --jobs 4 python main_adacomp.py --lr ::: 10 15 20 25 30 40 50 100 > log.txt
+parallel --eta --jobs 4 python main.py --lr ::: 6 7 8 9 > log.txt
+parallel --eta --jobs 4 python main_adacomp.py --lr ::: 6 7 8 9 > log.txt
+
+parallel --eta --jobs 4 python main.py --lr ::: 0.001 0.005 0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1 2 3 4 5  > log0928.txt
+parallel --eta --jobs 4 python main_adacomp.py --lr ::: 0.001 0.005 0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1 2 3 4 5  > log.txt
+parallel --eta --jobs 4 python main.py --lr ::: 1d-5 5e-5 1e-4 5e-4 1e-3 5e-3 0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1 2 3 4 5 10 15 20 25 30 40 50 > log.txt
+
+parallel --eta --jobs 4 python main.py --batch-size ::: 16 32 64 128 > log.txt
+parallel --eta --jobs 4 python main_adacomp.py --batch-size ::: 16 32 64 128 > log.txt
+
+parallel --eta --jobs 4 python main.py --seed ::: 1 10 20 30 > log.txt
+parallel --eta --jobs 4 python main_adacomp.py --seed ::: 20 30 > log.txt
+
+parallel --eta --jobs 4 python main_adacomp.py --lr :::  7 8 9 10 > log.txt
+parallel --eta --jobs 4 python main.py --lr ::: 1e-5 5e-5 1e-4 5e-4 1e-3 5e-3 0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1 > log.txt

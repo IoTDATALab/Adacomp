@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="be7640ae-9201-4964-a41d-86f2f1c30486" name="pytorch" url="http://202.117.43.192">
+        <fileTransfer host="202.117.43.192" port="22" privateKey="D:\Program Files (x86)\.ssh\id_rsa" rootFolder="/home/liyanan" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

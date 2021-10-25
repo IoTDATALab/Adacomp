@@ -1,0 +1,46 @@
+10/23/2021 01:27:44 PM - INFO - ***Evolving 10 generations with population 20***
+10/23/2021 01:27:44 PM - INFO - ***Doing generation 1 of 10***
+10/23/2021 01:29:41 PM - INFO - ***Evolving 10 generations with population 20***
+10/23/2021 01:29:41 PM - INFO - ***Doing generation 1 of 10***
+10/23/2021 01:33:57 PM - INFO - ***Evolving 10 generations with population 20***
+10/23/2021 01:33:57 PM - INFO - ***Doing generation 1 of 10***
+10/23/2021 01:44:57 PM - INFO - Generation max accuracy, precision, recall, max, min: 0.9195%, 0.9238%, 0.9155%
+10/23/2021 01:44:57 PM - INFO - --------------------------------------------------------------------------------
+10/23/2021 01:44:57 PM - INFO - ***Doing generation 2 of 10***
+10/23/2021 01:51:01 PM - INFO - Generation max accuracy, precision, recall, max, min: 0.9195%, 0.9238%, 0.9155%
+10/23/2021 01:51:01 PM - INFO - --------------------------------------------------------------------------------
+10/23/2021 01:51:01 PM - INFO - ***Doing generation 3 of 10***
+10/23/2021 01:56:54 PM - INFO - Generation max accuracy, precision, recall, max, min: 0.9195%, 0.9238%, 0.9155%
+10/23/2021 01:56:54 PM - INFO - --------------------------------------------------------------------------------
+10/23/2021 01:56:54 PM - INFO - ***Doing generation 4 of 10***
+10/23/2021 02:03:48 PM - INFO - Generation max accuracy, precision, recall, max, min: 0.9195%, 0.9238%, 0.9155%
+10/23/2021 02:03:48 PM - INFO - --------------------------------------------------------------------------------
+10/23/2021 02:03:48 PM - INFO - ***Doing generation 5 of 10***
+10/23/2021 02:09:28 PM - INFO - Generation max accuracy, precision, recall, max, min: 0.9202%, 0.9257%, 0.9159%
+10/23/2021 02:09:28 PM - INFO - --------------------------------------------------------------------------------
+10/23/2021 02:09:28 PM - INFO - ***Doing generation 6 of 10***
+10/23/2021 02:14:53 PM - INFO - Generation max accuracy, precision, recall, max, min: 0.9202%, 0.9257%, 0.9159%
+10/23/2021 02:14:53 PM - INFO - --------------------------------------------------------------------------------
+10/23/2021 02:14:53 PM - INFO - ***Doing generation 7 of 10***
+10/23/2021 02:21:25 PM - INFO - Generation max accuracy, precision, recall, max, min: 0.9202%, 0.9257%, 0.9159%
+10/23/2021 02:21:25 PM - INFO - --------------------------------------------------------------------------------
+10/23/2021 02:21:25 PM - INFO - ***Doing generation 8 of 10***
+10/23/2021 02:27:19 PM - INFO - Generation max accuracy, precision, recall, max, min: 0.9222%, 0.9256%, 0.9196%
+10/23/2021 02:27:19 PM - INFO - --------------------------------------------------------------------------------
+10/23/2021 02:27:19 PM - INFO - ***Doing generation 9 of 10***
+10/23/2021 02:33:29 PM - INFO - Generation max accuracy, precision, recall, max, min: 0.9222%, 0.9256%, 0.9196%
+10/23/2021 02:33:29 PM - INFO - --------------------------------------------------------------------------------
+10/23/2021 02:33:29 PM - INFO - ***Doing generation 10 of 10***
+10/23/2021 02:38:57 PM - INFO - Generation max accuracy, precision, recall, max, min: 0.9222%, 0.9256%, 0.9196%
+10/23/2021 02:38:57 PM - INFO - --------------------------------------------------------------------------------
+10/23/2021 02:38:57 PM - INFO - --------------------------------------------------------------------------------
+10/23/2021 02:38:57 PM - INFO - {'learning_rate': 0.1, 'momentum': 0.55}
+10/23/2021 02:38:57 PM - INFO - Network accuracy: 92.22%
+10/23/2021 02:38:57 PM - INFO - {'learning_rate': 0.1, 'momentum': 0.45}
+10/23/2021 02:38:57 PM - INFO - Network accuracy: 92.02%
+10/23/2021 02:38:57 PM - INFO - {'learning_rate': 0.1, 'momentum': 0.55}
+10/23/2021 02:38:57 PM - INFO - Network accuracy: 91.99%
+10/23/2021 02:38:57 PM - INFO - {'learning_rate': 0.1, 'momentum': 0.55}
+10/23/2021 02:38:57 PM - INFO - Network accuracy: 91.95%
+10/23/2021 02:38:57 PM - INFO - {'learning_rate': 0.1, 'momentum': 0.55}
+10/23/2021 02:38:57 PM - INFO - Network accuracy: 91.85%
