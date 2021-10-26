@@ -1,8 +1,11 @@
 ## Code for Experiments in Appendix
 
 1. Using more metrics, including accuracy, precision, recall, f1-score, to validate performance of Adacomp. 
-These include code for MNIST, code for Fashion-MNIST, code for CIFAR-100.
+These include code for MNIST, code for Fashion-MNIST, code for CIFAR-100. 
+The used network architecture is the same as that of parent directory. 
 
 2. Comparing Adacomp with genetic algorithm and particle swarm optimization algorithm.
-This include code
+This include Evolutionary Experiment.
+In particular, each case is in a separate directory. 
+
 
