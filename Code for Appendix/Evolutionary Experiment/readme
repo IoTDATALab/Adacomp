@@ -3,7 +3,9 @@
 (1) This includes two group experiments, 
 
     (i) GA for MNIST, Fashion-MNIST, and CIFAR-10;
+    The code is designed based on https://github.com/jishnup11/-Fast-CNN-Fast-Optimisation-of-CNN-Architecture-Using-Genetic-Algorithm;
     (ii) PSO for MNIST, Fashion-MNIST, and CIFAR-10;
+    The code is designed based on https://github.com/vinthony/pso-cnn.
 
 (2) The optimizaed parameters are learning rate and momentum coefficient. 
 
