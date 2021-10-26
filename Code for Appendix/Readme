@@ -1,16 +1,8 @@
-## Code for Genetic algorithm (GA), Particle Swarm Optimization algorithm (PSO).
+## Code for Experiments in Appendix
 
-(1) This includes two group experiments, 
+1. Using more metrics, including accuracy, precision, recall, f1-score, to validate performance of Adacomp. 
+These include code for MNIST, code for Fashion-MNIST, code for CIFAR-100.
 
-    (i) GA for MNIST, Fashion-MNIST, and CIFAR-10;
-    (ii) PSO for MNIST, Fashion-MNIST, and CIFAR-10;
+2. Comparing Adacomp with genetic algorithm and particle swarm optimization algorithm.
+This include code
 
-(2) The optimizaed parameters are learning rate and momentum coefficient. 
-
-    (i) For GA, learning rate ranges in [0.0001,0.0005, 0.001,0.005, 0.01, 0.05, 0.1, 0.2, 0.3], momentum ranges in [0.45, 0.95] with step size 0.05;
-    (ii) For PSO, lower and upper bounds of learning rate [0.0001, 0.3], for moementum is [0.45, 0.95].
-    
-(3) To run code, 
-
-    (i) For GA, typing "python main.py" in the corresponding directory;
-    (ii) For PSO, typing "python filename.py" where filiename is mnist_conv.py, fashionmnist_conv.py, cifar10_conv.py in PSO directory. 
